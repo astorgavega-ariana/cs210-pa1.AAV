@@ -4,7 +4,7 @@
 
 #pragma once
 template <typename T>
-class List{
+class List<T>{
     public:
     virtual void addAnywhere(int position, T* value) = 0;
     virtual void deleteAnywhere(int position) = 0;
