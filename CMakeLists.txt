@@ -8,4 +8,9 @@ include_directories(.)
 add_executable(cs210_pa1_boilerplate
         main.cpp
         Player.h
-        Stack.h)
+        Stack.h
+        List.h
+        Node.h
+        ArrayList.h
+        LinkedList.h
+        Data.h)
