@@ -2,7 +2,11 @@
 // Created by Ariana Astorga Vega on 10/7/26.
 //
 
-#ifndef CS210_PA1_BOILERPLATE_ARRAYLIST_H
-#define CS210_PA1_BOILERPLATE_ARRAYLIST_H
+#pragma once
+#include "List.h"
 
-#endif //CS210_PA1_BOILERPLATE_ARRAYLIST_H
+template <typename T>
+class ArrayList : public List<T> {
+    public:
+
+}
