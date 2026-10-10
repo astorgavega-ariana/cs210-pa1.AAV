@@ -3,6 +3,8 @@
 //
 
 #pragma once
+#include "LinkedList.h"
+
 template <typename T>
 class List{
     public:
@@ -20,6 +22,6 @@ class List{
 };
 template <typename T>
    std::unique_ptr<List<T>> makeList() {
-    // return std::make_unique<LinkedList<T>>();
+    return std::make_unique<LinkedList<T>>();
 }
 
