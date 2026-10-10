@@ -1,6 +1,8 @@
 #include <iostream>
 #include "List.h"
 #include "Player.h"
+#include "LinkedList.h"
+#include "ArrayList.h"
 
 int main() {
     // ---- Part 1: required test harness, do not modify ----
