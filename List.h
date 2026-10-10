@@ -3,7 +3,9 @@
 //
 
 #pragma once
-#include "LinkedList.h"
+#include <memory>
+template <typename T>
+class LinkedList;
 
 template <typename T>
 class List{
